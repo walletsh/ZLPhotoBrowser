@@ -48,7 +48,7 @@ class ZLInputTextViewController: UIViewController {
     var endInput: ( (String, UIColor, UIColor) -> Void )?
     
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .portrait
+        return .all
     }
     
     override var prefersStatusBarHidden: Bool {
