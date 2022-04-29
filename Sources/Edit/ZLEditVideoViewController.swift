@@ -93,7 +93,7 @@ public class ZLEditVideoViewController: UIViewController {
     }
     
     public override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .portrait
+        return .all
     }
     
     deinit {
