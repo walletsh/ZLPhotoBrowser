@@ -127,7 +127,7 @@ open class ZLCustomCamera: UIViewController, CAAnimationDelegate {
     
     // 仅支持竖屏
     public override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .portrait
+        return .all
     }
     
     public override var prefersStatusBarHidden: Bool {
